@@ -11,6 +11,14 @@
 		3B215A912B00F68F004D72E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B215A902B00F68F004D72E3 /* ContentView.swift */; };
 		3B215A932B00F691004D72E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B215A922B00F691004D72E3 /* Assets.xcassets */; };
 		3B215A972B00F691004D72E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B215A962B00F691004D72E3 /* Preview Assets.xcassets */; };
+		3B215AA12B010785004D72E3 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B215A9F2B010785004D72E3 /* astronauts.json */; };
+		3B215AA22B010785004D72E3 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B215AA02B010785004D72E3 /* missions.json */; };
+		3B215AA42B01083E004D72E3 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B215AA32B01083E004D72E3 /* Astronaut.swift */; };
+		3B215AA62B010A79004D72E3 /* Bundle-Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B215AA52B010A79004D72E3 /* Bundle-Decoder.swift */; };
+		3B215AA82B011805004D72E3 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B215AA72B011805004D72E3 /* Mission.swift */; };
+		3B215AAA2B012169004D72E3 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B215AA92B012169004D72E3 /* Color-Theme.swift */; };
+		3B215AAC2B01526B004D72E3 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B215AAB2B01526B004D72E3 /* MissionView.swift */; };
+		3B215AAE2B015CA5004D72E3 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B215AAD2B015CA5004D72E3 /* AstronautView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +28,14 @@
 		3B215A922B00F691004D72E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B215A942B00F691004D72E3 /* Moonshot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Moonshot.entitlements; sourceTree = "<group>"; };
 		3B215A962B00F691004D72E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B215A9F2B010785004D72E3 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		3B215AA02B010785004D72E3 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
+		3B215AA32B01083E004D72E3 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		3B215AA52B010A79004D72E3 /* Bundle-Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decoder.swift"; sourceTree = "<group>"; };
+		3B215AA72B011805004D72E3 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		3B215AA92B012169004D72E3 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
+		3B215AAB2B01526B004D72E3 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		3B215AAD2B015CA5004D72E3 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,14 @@
 			children = (
 				3B215A8E2B00F68F004D72E3 /* MoonshotApp.swift */,
 				3B215A902B00F68F004D72E3 /* ContentView.swift */,
+				3B215AAB2B01526B004D72E3 /* MissionView.swift */,
+				3B215AAD2B015CA5004D72E3 /* AstronautView.swift */,
+				3B215AA92B012169004D72E3 /* Color-Theme.swift */,
+				3B215AA52B010A79004D72E3 /* Bundle-Decoder.swift */,
+				3B215AA32B01083E004D72E3 /* Astronaut.swift */,
+				3B215AA72B011805004D72E3 /* Mission.swift */,
+				3B215AA02B010785004D72E3 /* missions.json */,
+				3B215A9F2B010785004D72E3 /* astronauts.json */,
 				3B215A922B00F691004D72E3 /* Assets.xcassets */,
 				3B215A942B00F691004D72E3 /* Moonshot.entitlements */,
 				3B215A952B00F691004D72E3 /* Preview Content */,
@@ -127,7 +151,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B215AA12B010785004D72E3 /* astronauts.json in Resources */,
 				3B215A972B00F691004D72E3 /* Preview Assets.xcassets in Resources */,
+				3B215AA22B010785004D72E3 /* missions.json in Resources */,
 				3B215A932B00F691004D72E3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +165,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B215AAC2B01526B004D72E3 /* MissionView.swift in Sources */,
+				3B215AA62B010A79004D72E3 /* Bundle-Decoder.swift in Sources */,
+				3B215AAE2B015CA5004D72E3 /* AstronautView.swift in Sources */,
+				3B215AAA2B012169004D72E3 /* Color-Theme.swift in Sources */,
+				3B215AA42B01083E004D72E3 /* Astronaut.swift in Sources */,
 				3B215A912B00F68F004D72E3 /* ContentView.swift in Sources */,
+				3B215AA82B011805004D72E3 /* Mission.swift in Sources */,
 				3B215A8F2B00F68F004D72E3 /* MoonshotApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +324,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mirsait.sabirzyanov.Moonshot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -330,7 +363,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mirsait.sabirzyanov.Moonshot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
